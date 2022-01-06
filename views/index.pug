@@ -1,0 +1,75 @@
+doctype  html 
+html 
+    head 
+        style 
+            include ../static/style.css
+    body 
+    nav#navbar.top 
+        ul
+            div#logo 
+                img(src="/static/img/logo.png", alt="")
+                | SDA
+            li #[a(href ="/") home ]
+            li #[a(href ="/") About]
+            li #[a(href ="/") Services]
+            li #[a(href ="/") class info] 
+            li #[a(href ="/") Contact us] 
+     
+    section.container 
+        section#introsection
+            div  Welcome to shital's Dance Academy 
+            div.small Eat Dance Sleep Repeat
+            section.split
+                section.box1 
+                    ul 
+                        li Belly Dance
+                        li Hip Hop
+                        li Zumba
+                        li Bharatnatyam
+         
+                section.box2
+                    ul 
+                        li Bollywood Dance 
+                        li Contemporary 
+                        li Kathak 
+                        li Others  
+
+    section#missionsection 
+        h2 Our Mission
+        div.card 
+            h3 Dance perfection
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/1.png", alt="")
+                div.card-content 
+                    p This is the best dance academy of the India
+        
+        div.card 
+            h3 Dance the way you like
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/2.png", alt="")
+                div.card-content 
+                    p This is the best dance academy of the India
+        
+        div.card 
+            h3 Expert teaching
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/3.png", alt="")
+                div.card-content 
+                    p This is the best dance academy of the India
+
+    section#sponsorssection
+        h2 Our sponsors
+        div#sponsor 
+            img(src="/static/img/logo1.png", alt="Sponsor Image", class="SpImage")
+            img(src="/static/img/logo2.png", alt="Sponsor Image", class="SpImage")
+            img(src="/static/img/logo3.png", alt="Sponsor Image", class="SpImage")
+            img(src="/static/img/logo4.png", alt="Sponsor Image", class="SpImage")
+    footer#footer 
+        | Copyright @ 2019 ShitalDanceAcademy.com | All right reserved
+     
+    script 
+        include ../static/index.js 
+        

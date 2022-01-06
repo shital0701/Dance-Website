@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Bree+Serif&family=Ubuntu:wght@300&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 12px 0px;
+}
+
+.myinput{
+    width: 628px;
+    padding: 9px;
+    margin: 13px;
+    font-size: 15px;
+    border: 2px solid #741616;
+    border-radius: 12px;
+    outline: none;
+}
+
+
+.myform{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.btn{
+    padding: 5px 20px;
+    margin: 12px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background: #b20b0b;
+    cursor: pointer;
+    font-family: 'Bree Serif', serif;
+    outline: none;
+}
+
+.container1{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.container1 h1{
+    font-family: 'Bree Serif', serif;
+}

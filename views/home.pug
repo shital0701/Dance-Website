@@ -1,0 +1,73 @@
+extends base.pug 
+
+block scripts
+    script(src='../static/index.js ') 
+
+block style 
+     style 
+     link(rel="stylesheet", href="../static/style.css")
+     link(rel="stylesheet",media="screen and (max-width: 1170px)", href="../static/phone.css")
+
+            
+
+           
+block content 
+    
+     
+    section.container 
+        section#introsection
+            div  Welcome to shital's Dance Academy 
+            div.small Eat Dance Sleep Repeat
+            section.split
+                section.box1 
+                    ul 
+                        li Belly Dance
+                        li Hip Hop
+                        li Zumba
+                        li Bharatnatyam
+         
+                section.box2
+                    ul 
+                        li Bollywood Dance 
+                        li Contemporary 
+                        li Kathak 
+                        li Others  
+
+    section#missionsection 
+        h2 Our Mission
+        div.card 
+            h3 Dance perfection
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/1.png", alt="")
+                div.card-content 
+                    p This is the best dance academy of the India
+        
+        div.card 
+            h3 Dance the way you like
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/2.png", alt="")
+                div.card-content 
+                    p This is the best dance academy of the India
+        
+        div.card 
+            h3 Expert teaching
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/3.png", alt="")
+                div.card-content 
+                    p This is the best dance academy of the India
+
+    section#sponsorssection
+        h2 Our sponsors
+        div#sponsor 
+            img(src="/static/img/logo1.png", alt="Sponsor Image", class="SpImage")
+            img(src="/static/img/logo2.png", alt="Sponsor Image", class="SpImage")
+            img(src="/static/img/logo3.png", alt="Sponsor Image", class="SpImage")
+            img(src="/static/img/logo4.png", alt="Sponsor Image", class="SpImage")
+    
+
+    script 
+        include ../static/index.js 
+    

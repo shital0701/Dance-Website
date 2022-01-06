@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Bree+Serif&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#navbar{
+    display: flex;
+    position: sticky;
+    padding: 17px 4px;
+    top: 0px;
+    /*justify-content: center;*/
+    align-items: center;
+    
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /*justify-content: center;*/
+    font-family: 'Bree Serif', serif;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 8px 30px;
+    
+    font-size: 20px;
+    color: white;
+    display: block;
+    border-radius: 20px;
+    
+}
+
+#navbar li a:hover{
+    color: black;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#navbar::before{
+    content: "";
+    background-color: #920413;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: -9px 14px;
+    font-size: 20px;
+    font-family: 'Bree Serif', serif;
+    margin-right: 40px;
+}
+
+#logo img{
+    height: 56px;
+    filter: invert(1);
+    padding: 6px;
+}
+
+
+#introsection{
+    height: 661px;
+    
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 50px;
+    flex-direction: column;
+    font-weight: bold;
+    
+   
+    
+}
+
+#introsection::before{
+    content: "";
+    background-color: #170607;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 746px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.container::before{
+    content: "";
+    background: url("../static/bg.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 746px;
+    width: 100%;
+    z-index: -2;
+    opacity: 0.8;
+}
+
+#introsection div.small{
+    font-size: 35px ;
+    padding-top: 4px;
+    color: white;
+}
+
+.split{
+    display: flex;
+    flex-direction: row;
+    font-size: 23px;
+    padding-top: 98px;
+    font-family: 'Bree Serif', serif;
+}
+
+.box1{
+    padding: 100px;
+    padding-right: 147px;
+   
+}
+.box2{
+    padding: 100px;
+    padding-left: 147px;
+    
+}
+
+.box1 ul li{
+    font-family: 'Bree Serif', serif;
+    font-weight: normal;
+}
+
+.box2 ul li{
+    font-family: 'Bree Serif', serif;
+    font-weight: normal;
+}
+
+#missionsection {
+    height: 326px;
+    margin: auto;
+    display: block;
+    width: 67%;
+    
+}
+
+#missionsection h2{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    padding-top: 16px;
+    font-size: 30px;
+
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 32%;
+    margin: 23px 6px;
+    height: 207px;
+    display: inline-block;
+}
+
+.card h3{
+    text-align: center;
+    margin: 12px;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img {
+    height: 115px;
+    padding: 0px 14px;
+    margin: 5px 9px;
+    
+}
+
+.card-img img{
+    height: inherit;
+}
+
+#sponsorssection{
+    height: 300px;
+    background-color: rgb(231, 185, 185);
+    font-size: 1.5rem;
+}
+
+#sponsor{
+    height: 147px;
+    max-width: 1000px;
+    margin: 23px auto;
+}
+
+.SpImage{
+    height: 80%;
+    margin: 20px;
+}
+
+#sponsorssection h2{
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    padding-top: 16px;
+    font-size: 30px;
+}
+
+#footer{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

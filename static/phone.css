@@ -1,0 +1,27 @@
+#missionsection{
+    height: 804px;
+    text-align: center;
+}
+
+.card{
+    width: 60%;
+}
+
+.card h3{
+    font-size: 30px;
+}
+
+.card-content{
+    font-size: 25px;
+}
+
+#contact{
+    position: relative;
+    height: 100%;
+}
+
+
+.container1{
+    min-height: 92vh;
+}
+
